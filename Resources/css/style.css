@@ -208,7 +208,7 @@ logo{
 }
 .logo2{
     color:  white;
-	font: normal 20px 'Fredoka One', cursive;
+	font: normal 15px 'Fredoka One', cursive;
     margin-top:0.2em;
 }
 
@@ -247,7 +247,7 @@ logo span{
 
 #MyWork{
     width:100% !important;
-    min-height: 800px!important;
+    min-height: 600px!important;
      background-color: #EFEFEF;
     
 }
@@ -445,7 +445,7 @@ margin-bottom: 0.5em;
     height: auto;
     z-index: -10;
 	animation: shine 6000s;
-    animation-delay: 3s;
+    animation-delay: 1s;
   
 	/* When the animation is finished, start again */
 	animation-iteration-count: infinite; 
@@ -465,7 +465,7 @@ margin-bottom: 0.5em;
     height: auto;
     z-index: -10;
     animation: shine 6000s;
-    animation-delay: 3s;
+    animation-delay: 1s;
     	/* When the animation is finished, start again */
 	animation-iteration-count: infinite;
 }

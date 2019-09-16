@@ -55,9 +55,9 @@ function myFunction() {
        document.getElementById("show").className = "hide";
       document.getElementById("hide").className = "";
       
-      document.getElementById("works").className = "container-fluid card pt-3 border-sky  animationt";
-      document.getElementById("websites").className = "col-12 col-md-6 p-5 border-sky card animationt";
-      document.getElementById("mobiles").className = "col-12 col-md-6 p-5 border-sky card animationt";
+      document.getElementById("works").className = "container-fluid  pt-3   ";
+      document.getElementById("websites").className = "col-11 col-md-5 m-auto  pt-5 border-sky card";
+      document.getElementById("mobiles").className = "col-11 col-md-5 m-auto  pt-5 border-sky card ";
       
       document.getElementById("icon").className = "pl-3 mt-1";
      document.getElementById("menu-size").className = "menu-size black-text mb-3";
