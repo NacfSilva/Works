@@ -1,0 +1,636 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+.bg-black{
+    background-color:#18121E;
+}
+.bg-ivory{
+    background-color:#1D2731;
+} 
+.bg-coolgrey{
+    background-color: #CDCDCD;
+}
+.borde-redrush{
+    border-bottom-color:#FF3B3F !important; 
+    height: 50px;
+}
+.borde-golden{
+    border-bottom-color:#D9B310 !important; 
+    height: 50px;
+}
+.menu-size{
+    color: black;
+    vertical-align: middle!important;
+    font-size: 18px!important;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+.html{
+  animation-duration: 5s;
+  animation-name: from-left;
+    
+}
+.jsx{
+  animation-duration: 5s;
+  animation-name: from-right;
+    
+}
+.css{
+  animation-duration: 7s;
+  animation-name: from-left;
+    
+}
+.bootstrap{
+  animation-duration: 7s;
+  animation-name: from-right;
+    
+}
+.bulma{
+  animation-duration:5s;
+  animation-name: from-left;
+    
+}
+.javascript{
+  animation-duration:5s;
+  animation-name: from-right;
+    
+}
+
+.react{
+  animation-duration: 7s;
+  animation-name: from-left;
+    
+}
+.github{
+  animation-duration: 7s;
+  animation-name: from-right;
+    
+}
+
+.animation{
+    animation-duration: 7s;
+  animation-name: from-right;
+}
+.animationt{
+    animation-duration: 2s;
+  animation-name: from-bottom;
+}
+ 
+}
+
+@keyframes from-bottom {
+      from {
+    margin-top: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  }
+ 
+
+@-webkit-keyframes from-bottom {
+     from {
+    margin-top: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+  @keyframes from-left {
+      from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  }
+ 
+
+@-webkit-keyframes from-left {
+     from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+  @keyframes from-right {
+      from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  }
+ 
+
+@-webkit-keyframes from-right {
+     from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.Silva2{
+    color:#FF3B3F;
+}
+.Silva1{
+    color:#D9B310;
+}
+.Silva3{
+    color:#C06014;
+}
+
+
+.borde-skyblue{
+    border-bottom-color:#4682B4 !important; 
+    height: 50px;
+}
+
+
+
+.borde-ochre{
+    border-bottom-color:#C06014!important;
+    height: 50px;
+}
+
+
+.changeLogo {
+    vertical-align: middle!important;
+	font-size: 20px!important;
+}
+
+logo{
+    
+	color:  #EAC67A;
+	font: normal 40px 'Fredoka One', cursive;
+    float:left;
+}
+.logo1{
+	color:  black;
+	font: normal 40px 'Fredoka One', cursive;
+    margin-top:0.2em;
+}
+.logo2{
+    color:  white;
+	font: normal 20px 'Fredoka One', cursive;
+    margin-top:0.2em;
+}
+
+
+logo span{
+	color:  #FF3B3F;
+}
+#MyLogo {
+    
+    margin-top:0.2em;
+}
+#MyLogo1 {
+    
+    margin-top:0.2em;
+}
+
+
+
+#Start{
+    width:100% !important;
+    min-height:350px!important;
+    margin:auto;
+    display: block;
+    background-color: #18121E;
+   
+}
+.Warmyellow-text{
+    color:#EAC67A!important;
+}
+.Warmyellow-text:hover{
+    color:white!important;
+}
+.active{
+    color:#FF3B3F!important;
+}
+
+#MyWork{
+    width:100% !important;
+    min-height: 800px!important;
+     background-color: #EFEFEF;
+    
+}
+.red-text{
+    color: #FF3B3F;
+}
+.Carbon-text{
+    color:#A9A9A9!important;
+}
+.Carbon-text:hover{
+    color:#233237!important;
+}
+.active1{
+    color:#FF3B3F!important;
+}
+
+#About{
+    width:100% !important;
+    min-height: 800px!important;
+   background-color: #328CC1;
+}
+.white-text{
+    color:white!important;
+}
+.white-text:hover{
+    color:#328CC1!important;
+}
+.active2{
+    color:#D9B310!important;
+}
+#Contact{
+    width:100% !important;
+    height:95hv;
+    min-height:700px!important;
+    background-color: white;
+    color:#CDCDCD;
+}
+
+.coolgrey-text{
+    color:black!important;
+}
+.coolgrey-text:hover{
+    color:white!important;
+}
+.bg-pastel{
+    background-color:#EDDBCD!important;
+}
+.ochre-text{
+   color:#C06014 
+}
+.active3{
+    color:#C06014!important;
+}
+
+.rotate{ 
+    vertical-align: middle!important;
+    font: normal 40px 'Fredoka One', cursive;
+}
+.rotate1{ 
+    vertical-align: middle!important;
+    font: normal 20px 'Fredoka One', cursive;
+}
+
+  
+ 
+.wrap{
+    background: #18121E;
+    color:#FF3B3F;
+    text-align: center;
+    vertical-align: middle;
+ position: absolute;
+ max-height: 60px;
+    
+top: 175px;
+left: 50%;
+transform: translate(-50%, -50%);
+    	/* Start the shake animation and make the animation last for 0.5 seconds */
+	animation: shine 1s; 
+  
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite; 
+}
+  @keyframes shine {
+      0%{border-right: 0.08em solid #EAC67A;}
+	50%{border-right: 0.08em solid #EAC67A;}
+
+	55%{border-right: 0.08em solid #18121E;}
+
+	95%{border-right: 0.08em solid #18121E;}
+		
+	100%{border-right: 0.08em solid #EAC67A;}
+  }
+.hashtag{
+    
+    color:#FF3B3F;
+    float:left;
+    margin-top:0.2em;
+}
+.hashtag1{
+    color:#FF3B3F;
+    float:left;
+    margin-top:0.2em;
+}
+.hashtag2{
+    color:#D9B310;
+    float:left;
+    margin-top:0.2em;
+}
+.hashtag3{
+    color:#C06014;
+    float:left;
+    margin-top:0.2em;
+}
+.hashtag3-footer{
+    color:#C06014;
+    float:left;
+    margin-bottom:0.2em;
+}
+
+
+
+
+/*  social  */
+
+  
+/* Footer */
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     vertical-align: middle;
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+.social-vertical svg{
+margin-bottom: 1.1em;
+}
+.social-vertical{
+margin-bottom: 0.5em;
+    
+}
+.social-color{
+    color:#EAC67A!important;
+}
+/*
+    Multicoloured Hover Variations
+*/
+ .fiverr-color svg {
+    fill:#EAC67A;
+}
+ #social-em:hover {
+     color: #f39c12!important;
+ }
+#social-gi:hover{
+    color: #6e5494!important;
+}
+.black-text{
+    color:black;
+}
+.black-text:hover{
+    color:#328CC1!important;
+}
+
+.gold-text{
+    color:#D9B310;
+}
+.gold-text:hover{
+    color:white!important;
+}
+.gold1-text{
+    color:#D9B310;
+}
+.sky-text{
+    color:#CAEBF2;
+}
+.border-sky{
+    border: solid 1px #CAEBF2
+}
+.telemovel{
+   position: absolute; 
+     width: 100%;
+    height: auto;
+}
+.telemovel1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+	animation: shine 6000s;
+    animation-delay: 3s;
+  
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite; 
+}
+
+
+.pc{
+   position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+
+.pc1{
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    animation: shine 6000s;
+    animation-delay: 3s;
+    	/* When the animation is finished, start again */
+	animation-iteration-count: infinite;
+}
+
+
+  @keyframes shine {
+      0%{ 
+          z-index: 4;
+      
+      }
+	
+  }
+.fiverr-icon svg{
+    
+    width:2em;
+    height:2em;
+    
+}
+.fiverr-color svg:hover {
+    fill: rgb(33,182,95)!important;
+}
+
+.fiverr-black svg:hover{
+    fill: rgb(33,182,95)!important;
+ 
+}
+
+.fiverr-black svg{
+     fill: #000 !important;
+ }
+
+.fiverr-white svg{
+    fill: white !important;
+}
+.fiverr-white svg:hover{
+    fill: rgb(33,182,95)!important;
+ 
+}
+/*  contact button */
+
+.btn-OCHRE {
+    color: #fff;
+    background-color: #C06014;
+    border-color: #C06014
+}
+
+.btn-OCHRE:hover {
+    color: #fff;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+
+.btn-OCHRE.focus,
+.btn-OCHRE:focus {
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+}
+
+.btn-OCHRE.disabled,
+.btn-OCHRE:disabled {
+    color: #fff;
+    background-color: #C06014;
+    border-color: #C06014
+}
+
+.btn-OCHRE:not(:disabled):not(.disabled).active,
+.btn-OCHRE:not(:disabled):not(.disabled):active,
+.show>.btn-OCHRE.dropdown-toggle {
+    color: #fff;
+    background-color: #C06014;
+    border-color: #C06014;
+}
+
+.btn-OCHRE:not(:disabled):not(.disabled).active:focus,
+.btn-OCHRE:not(:disabled):not(.disabled):active:focus,
+.show>.btn-OCHRE.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+}
+
+/*botoes gold*/
+
+.btn-gold {
+    color: #fff;
+    background-color: #D9B310;
+    border-color: #D9B310
+}
+
+.btn-gold:hover {
+    color: #fff;
+    background-color: #328CC1;
+    border-color: #328CC1;
+}
+
+.btn-gold.focus,
+.btn-gold:focus {
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+}
+
+.btn-gold.disabled,
+.btn-gold:disabled {
+    color: #fff;
+    background-color: #D9B310;
+    border-color: #D9B310
+}
+
+.btn-gold:not(:disabled):not(.disabled).active,
+.btn-gold:not(:disabled):not(.disabled):active,
+.show>.btn-gold.dropdown-toggle {
+    color: #fff;
+    background-color: #D9B310;
+    border-color: #D9B310;
+}
+
+.btn-gold:not(:disabled):not(.disabled).active:focus,
+.btn-gold:not(:disabled):not(.disabled):active:focus,
+.show>.btn-gold.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+}
+
+
+
+.img-icon{
+    height: 40px;
+    width: auto;
+}
+/* color:
+
+11 (used 1)
+Navy blue(dark blue) #18121E 
+Gunmetal(less dark blue) #233237 
+rusty red(red) #984B43 
+Warmyellow #EAC67A
+
+--
+8 (used 2)
+sky(blue) #CAEBF2 
+Carbon(darkgray)#A9A9A9 
+watermelon(red)#FF3B3F 
+Neutral (lightgray) #EFEFEF
+
+-- 
+16 (used 3)
+PrussianBlue(dark blue) #0B3C5D 
+Skyblue(blue) #328CC1 
+GOLD LEAF #D9B310 
+IVORY BLACK #1D2731
+
+--
+
+47 (used 5)
+OCHRE(castanho) #C06014 
+Pastel Peach(beje) #EDDBCD 
+black #000000 
+Cool Grey #CDCDCD
+
+--
+18 (used 4)
+Screen (silver) #C5C1C0  
+Steel(almost black) #0A1612 
+Denim(dark blue) #1A2930 
+Marigold(gold) #F7CE3E
+
+--
+*/
+
+
+/* work text efect */
+
+
