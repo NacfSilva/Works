@@ -450,8 +450,8 @@ margin-bottom: 0.5em;
 
 .pc1{
     position: relative; 
-    width: 370px;
-    height: 300px;
+    width: 340px;
+    height: 260px;
 }
 
 
@@ -616,6 +616,6 @@ Marigold(gold) #F7CE3E
     .navbar-fixed-top
     {
     position: fixed;
-    top: 70px;
+    top: 10px;
     }
 }
