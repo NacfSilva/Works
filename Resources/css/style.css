@@ -441,16 +441,16 @@ margin-bottom: 0.5em;
 
 .telemovel1{
     position: relative;
-    width: 400px!important; 
-    height: 400px!important;
+    width: 400px; 
+    height: 300px;
 }
 
 
 
 .pc1{
     position: relative; 
-    width: 400px!important;
-    height: 400px!important;
+    width: 400px;
+    height: 300px;
 }
 
 
