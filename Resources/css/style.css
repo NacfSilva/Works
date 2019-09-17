@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
-body{
+html{
     font-family: 'Acme', sans-serif;
+    max-width: 100%;
  margin-left: 0;
     margin-right: 0;
     
@@ -449,7 +450,7 @@ margin-bottom: 0.5em;
 
 .pc1{
     position: relative; 
-    width: 300px;
+    width: 370px;
     height: 300px;
 }
 
@@ -615,6 +616,6 @@ Marigold(gold) #F7CE3E
     .navbar-fixed-top
     {
     position: fixed;
-    top: 0;
+    top: 70px;
     }
 }
