@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 body{
     font-family: 'Acme', sans-serif;
+    overflow-x: hidden;
 }
 
 .bg-black{
@@ -434,50 +435,22 @@ margin-bottom: 0.5em;
 .border-sky{
     border: solid 1px #CAEBF2
 }
-.telemovel{
-   position: absolute; 
-     width: 100%;
-    height: auto;
-}
+
 .telemovel1{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    z-index: -10;
-	animation: shine 6000s;
-    animation-delay: 1s;
-  
-	/* When the animation is finished, start again */
-	animation-iteration-count: infinite; 
+    position: relative;
+    width: 102%!important; 
+    height: 78%!important;
 }
 
-
-.pc{
-   position: absolute;
-    width: 100%;
-    height: auto;
-}
 
 
 .pc1{
-    position: absolute; 
+    position: relative; 
     width: 100%;
     height: auto;
-    z-index: -10;
-    animation: shine 6000s;
-    animation-delay: 1s;
-    	/* When the animation is finished, start again */
-	animation-iteration-count: infinite;
 }
 
 
-  @keyframes shine {
-      0%{ 
-          z-index: 4;
-      
-      }
-	
-  }
 .fiverr-icon svg{
     
     width:2em;
