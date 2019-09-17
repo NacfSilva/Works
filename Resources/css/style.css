@@ -616,6 +616,6 @@ Marigold(gold) #F7CE3E
     .navbar-fixed-top
     {
     position: fixed;
-    top: 10px;
+    top: 0px;
     }
 }
