@@ -2,7 +2,7 @@ function myFunction() {
   if (document.body.scrollTop > (($('#MyWork').offset().top)-150) || document.documentElement.scrollTop >  (($('#MyWork').offset().top))-150) {
        if (document.body.scrollTop >  (($('#About').offset().top)-50) || document.documentElement.scrollTop > (($('#About').offset().top)-50)  ) {
              if (document.body.scrollTop >  (($('#Contact').offset().top)-50) || document.documentElement.scrollTop > (($('#Contact').offset().top)-50)  ) {
-    document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+    document.getElementById("myMenu").className = "navbar sticky-top container-fluid  navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
     document.getElementById("myLogo").className = "changeLogo logo1 socail-vertical mt-2";
     document.getElementById("Silva").className = "Silva3";
       document.getElementById("social-em").className = "fa fa-envelope fa-2x social black-text social-vertical ";
@@ -19,7 +19,7 @@ function myFunction() {
       document.getElementById("menu-size2").className = "menu-size coolgrey-text mb-3";
       document.getElementById("menu-size3").className = "menu-size coolgrey-text active3 mb-3";
     }else{
-    document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-dark border-bottom w-100 borde-golden bg-ivory";
+    document.getElementById("myMenu").className = "navbar sticky-top container-fluid  navbar-expand-lg navbar-dark border-bottom w-100 borde-golden bg-ivory";
     document.getElementById("myLogo").className = "changeLogo logo2 socail-vertical mt-2";
     document.getElementById("Silva").className = "Silva1";
         document.getElementById("icon").className = "pl-3 mt-1";
@@ -45,7 +45,7 @@ function myFunction() {
       document.getElementById("menu-size3").className = "menu-size white-text mb-3";
     }
   }else{
-      document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light border-bottom w-100 borde-redrush bg-white";
+      document.getElementById("myMenu").className = "navbar sticky-top container-fluid  navbar-expand-lg navbar-light border-bottom w-100 borde-redrush bg-white";
     document.getElementById("myLogo").className = "changeLogo logo1 socail-vertical mt-2";
     document.getElementById("Silva").className = "Silva2";
       document.getElementById("social-em").className = "fa fa-envelope fa-2x social black-text social-vertical ";
@@ -68,7 +68,7 @@ function myFunction() {
     
       }
   } else {
-    document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-dark bg-black  w-100 large";
+    document.getElementById("myMenu").className = "navbar sticky-top container-fluid  navbar-expand-lg navbar-dark bg-black  w-100 large";
     document.getElementById("myLogo").className = "";
     document.getElementById("Silva").className = "";
       document.getElementById("myLogo1").className = "";
