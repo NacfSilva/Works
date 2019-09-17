@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 body{
     font-family: 'Acme', sans-serif;
-
+ margin-left: 0;
+    margin-right: 0;
+    
  overflow-x: hidden;
 }
 
@@ -439,16 +441,16 @@ margin-bottom: 0.5em;
 
 .telemovel1{
     position: relative;
-    width: 102%!important; 
-    height: 78%!important;
+    width: 600px!important; 
+    height: 800px!important;
 }
 
 
 
 .pc1{
     position: relative; 
-    width: 100%;
-    height: auto;
+    width: 600px!important;
+    height: 800px!important;
 }
 
 
