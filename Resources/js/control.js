@@ -2,7 +2,7 @@ function myFunction() {
   if (document.body.scrollTop > (($('#MyWork').offset().top)-150) || document.documentElement.scrollTop >  (($('#MyWork').offset().top))-150) {
        if (document.body.scrollTop >  (($('#About').offset().top)-50) || document.documentElement.scrollTop > (($('#About').offset().top)-50)  ) {
              if (document.body.scrollTop >  (($('#Contact').offset().top)-50) || document.documentElement.scrollTop > (($('#Contact').offset().top)-50)  ) {
-    document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+    
     document.getElementById("myLogo").className = "changeLogo logo1 socail-vertical mt-2";
     document.getElementById("Silva").className = "Silva3";
       document.getElementById("social-em").className = "fa fa-envelope fa-2x social black-text social-vertical ";
@@ -18,6 +18,23 @@ function myFunction() {
       document.getElementById("menu-size1").className = "menu-size coolgrey-text mb-3";
       document.getElementById("menu-size2").className = "menu-size coolgrey-text mb-3";
       document.getElementById("menu-size3").className = "menu-size coolgrey-text active3 mb-3";
+                    
+    var lastScrollTop = 0;
+    // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+    element.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
+    var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+    if (st > lastScrollTop){
+      document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-bottom navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+        
+        // downscroll code
+    } else {
+        document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+        
+      // upscroll code
+    }
+    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    }, false); 
+                 
     }else{
     document.getElementById("myMenu").className = "navbar  navbar-fixed-top sticky-top container-fluid  navbar-expand-lg navbar-dark border-bottom w-100 borde-golden bg-ivory";
     document.getElementById("myLogo").className = "changeLogo logo2 socail-vertical mt-2";
@@ -43,6 +60,24 @@ function myFunction() {
       document.getElementById("menu-size1").className = "menu-size white-text mb-3";
       document.getElementById("menu-size2").className = "menu-size white-text active2 mb-3";
       document.getElementById("menu-size3").className = "menu-size white-text mb-3";
+           
+      var lastScrollTop = 0;
+      // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+      element.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
+      var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+      if (st > lastScrollTop){
+          
+          document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-bottom navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+          
+      // downscroll code
+      } else {
+          
+          document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+      // upscroll code
+      }
+      lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+      }, false); 
+        
     }
   }else{
       document.getElementById("myMenu").className = "navbar navbar-fixed-top sticky-top container-fluid  navbar-expand-lg navbar-light border-bottom w-100 borde-redrush bg-white";
@@ -65,6 +100,23 @@ function myFunction() {
       document.getElementById("menu-size1").className = "menu-size black-text active1 mb-3";
       document.getElementById("menu-size2").className = "menu-size black-text mb-3";
       document.getElementById("menu-size3").className = "menu-size black-text mb-3";
+      
+      
+     var lastScrollTop = 0;
+     // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+     element.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
+     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+     if (st > lastScrollTop){
+          
+          document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-bottom navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+      // downscroll code   
+     } else {
+         
+          document.getElementById("myMenu").className = "navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light border-bottom w-100 borde-ochre bg-pastel";
+      // upscroll code
+     }
+     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+     }, false);
     
       }
   } else {
